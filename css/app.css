@@ -67,18 +67,18 @@
 /* your code here | this overwrites foundation */
 
 body{
-	background-color: #fff;
+  background-color: #fff;
 }
 
 h1, h2, h3, h4, h5, h6{
-	font-family:'Source Sans Pro', Helvetica, Arial, sans-serif;
+  font-family:'Source Sans Pro', Helvetica, Arial, sans-serif;
 
 }
 
 /*app specific*/
 
 h1{
-	text-align: left;
+  text-align: left;
     padding-top: 5%;
     font-size: 3em;
     font-weight: 600;
@@ -113,7 +113,7 @@ h3 {
 }
 
 #appbutton{
-	background-color: #a5a3a3;
+  background-color: #a5a3a3;
     border-radius: 5px;
 }
 

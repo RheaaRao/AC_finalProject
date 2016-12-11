@@ -94,6 +94,3 @@ vis.selectAll(".yTicks").data(y.ticks(4)).enter().append("svg:line").attr("class
 
     });
   });
-
-
-
