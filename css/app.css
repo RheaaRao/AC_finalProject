@@ -118,8 +118,8 @@ h3 {
 }
 
 .axis{
-    stroke-width: 0.8;
-    stroke: #000;
+  stroke-width:0.4;
+  stroke: #000;
 }
 
 path{
@@ -128,11 +128,25 @@ path{
   fill: none;
 }
 
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 60px;
+  height: 28px;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: white;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}
 /* ai2HTML */
 
 
 
 /* media queries*/
+
 [id$="-desktop"],
 [id*="-desktop "] {
   display: block;
